@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartCity01"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activity.useractivity.AllOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.takeoutactivity.TakeOutOrderDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.takeoutactivity.TakeOutOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.takeoutactivity.TakeOutCollectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.takeoutactivity.TakeOutAddAddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.takeoutactivity.TakeOutAddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.takeoutactivity.TakeOutOrderSettlementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.takeoutactivity.TakeOutSellerDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.takeoutactivity.TakeOutSearchSellerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.takeoutactivity.TakeOutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.movieactivity.MovieTheatreSeatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.movieactivity.MovieTicketOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.movieactivity.MovieTicketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.movieactivity.MovieTheatreDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.movieactivity.MovieTheatreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.movieactivity.MovieDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.movieactivity.MovieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.trafficactivity.TrafficCheckApplyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.trafficactivity.TrafficMyCarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.trafficactivity.TrafficVehicleManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.trafficactivity.TrafficAddDriverLicenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.trafficactivity.TrafficDriverLicenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.trafficactivity.TrafficActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.workactivity.WorkDeliverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.workactivity.WorkSelectResumeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.workactivity.WorkAddResumeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.workactivity.WorkResumeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.workactivity.WorkDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.workactivity.WorkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.houseactivity.HouseDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.houseactivity.HouseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.expenseactivity.ExpensesWeatherDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.expenseactivity.ExpensesWeatherForecastActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.expenseactivity.ExpensesReCordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.expenseactivity.ExpensesPaymentDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.expenseactivity.ExpensesPaymentListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.expenseactivity.ExpensesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.busactivity.BusOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.busactivity.BusDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.busactivity.BusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.parkingactivity.ParkingRecordsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.parkingactivity.ParkingAddConsumptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.parkingactivity.ParkingCarConsumptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.parkingactivity.ParkingMyCarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.parkingactivity.ParkingCorrectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.parkingactivity.ParkingIntegralReCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.parkingactivity.ParkingIntegralActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.parkingactivity.ParkingLotReChargeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.parkingactivity.ParkingMyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.parkingactivity.ParkingLotDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.parkingactivity.ParkingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.hospitalactivity.HospitalReservationListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.hospitalactivity.HospitalReservationSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.hospitalactivity.HospitalCategoryDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.hospitalactivity.AddHospitalCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.hospitalactivity.HospitalCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.hospitalactivity.HospitalCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.hospitalactivity.HospitalDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.hospitalactivity.HospitalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.ActivityList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.activity.ActivityDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.metroactivity.AnnouncementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.metroactivity.LastAndFoundActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.metroactivity.MetroLineDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.metroactivity.RailCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.metroactivity.MetroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PressDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.useractivity.FeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.useractivity.UpdatePwdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.useractivity.UserDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.useractivity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.useractivity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
